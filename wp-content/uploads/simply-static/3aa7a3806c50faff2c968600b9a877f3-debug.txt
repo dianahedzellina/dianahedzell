@@ -1,0 +1,627 @@
+[2025-01-31 15:24:27] [class-ss-archive-creation-job.php:97] Starting a job; no job is presently running
+[2025-01-31 15:24:27] [class-ss-archive-creation-job.php:98] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
+[2025-01-31 15:24:27] [class-ss-archive-creation-job.php:116] Pushing first task to queue: setup
+[2025-01-31 15:24:27] [class-ss-archive-creation-job.php:172] Current task: setup
+[2025-01-31 15:24:27] [class-ss-archive-creation-job.php:182] Performing task: setup
+[2025-01-31 15:24:27] [class-ss-task.php:44] Status message: [setup] Setting up
+[2025-01-31 15:24:27] [class-ss-setup-task.php:33] Creating archive directory: C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067\
+[2025-01-31 15:24:27] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/dianahedzell_cv/
+[2025-01-31 15:24:27] [class-yoast-integration.php:92] Adding sitemap URL to queue: http://localhost/dianahedzell_cv/index.php/sitemap.xml
+[2025-01-31 15:24:27] [class-yoast-integration.php:92] Adding sitemap URL to queue: http://localhost/dianahedzell_cv/index.php/sitemap_index.xml
+[2025-01-31 15:24:27] [class-ss-archive-creation-job.php:204] We've found our next task: fetch_urls
+[2025-01-31 15:24:27] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-31 15:24:27] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-31 15:24:27] [class-ss-fetch-urls-task.php:69] Total pages: 3; Pages remaining: 3
+[2025-01-31 15:24:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/
+[2025-01-31 15:24:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 3
+[2025-01-31 15:24:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb2bc19b7-Vueigv.tmp
+[2025-01-31 15:24:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/?simply_static_page=95
+[2025-01-31 15:24:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/?simply_static_page=95
+[2025-01-31 15:24:28] [class-ss-url-fetcher.php:103] Filesize: 61804 bytes
+[2025-01-31 15:24:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-31 15:24:28] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2025-01-31 15:24:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb2bc19b7-Vueigv.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/index.html
+[2025-01-31 15:24:28] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:158] Adding 30 URLs to the queue
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:31] [class-ss-page.php:119] Checking Content Identical:24b1f48e101b82f4224f46e829df38d71a193817===. Value: FALSE
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/index.php/sitemap.xml
+[2025-01-31 15:24:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 3
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/dianahedzell_cv/index.php/sitemap.xml
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/index.php/sitemap_index.xml
+[2025-01-31 15:24:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 3
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/dianahedzell_cv/index.php/sitemap_index.xml
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-31 15:24:31] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 3 pages/files
+[2025-01-31 15:24:31] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-01-31 15:24:31] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-31 15:24:31] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:69] Total pages: 32; Pages remaining: 29
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv
+[2025-01-31 15:24:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 32
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb2f98f3d-TXSJAk.tmp
+[2025-01-31 15:24:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv?simply_static_page=98
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv?simply_static_page=98
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:103] Filesize: 362 bytes
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:203] redirect_url: http://localhost/dianahedzell_cv/
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:212] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/index.php/about-2/
+[2025-01-31 15:24:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 32
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/dianahedzell_cv/index.php/about-2/
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/index.php/resume/
+[2025-01-31 15:24:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 32
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/dianahedzell_cv/index.php/resume/
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/index.php/portfolio/
+[2025-01-31 15:24:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 32
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/dianahedzell_cv/index.php/portfolio/
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/index.php/blog-2/
+[2025-01-31 15:24:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 32
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/dianahedzell_cv/index.php/blog-2/
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/index.php/contact-3/
+[2025-01-31 15:24:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 32
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/dianahedzell_cv/index.php/contact-3/
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/index.php/2025/01/30/hello-world/
+[2025-01-31 15:24:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 32
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/dianahedzell_cv/index.php/2025/01/30/hello-world/
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/index.php/author/admin/
+[2025-01-31 15:24:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 32
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/dianahedzell_cv/index.php/author/admin/
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/index.php/2025/01/30/
+[2025-01-31 15:24:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 32
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/dianahedzell_cv/index.php/2025/01/30/
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/uploads/2025/01/download__1_-removebg-preview-1.png
+[2025-01-31 15:24:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 32
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb2fa87ef-bNc8GG.tmp
+[2025-01-31 15:24:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/uploads/2025/01/download__1_-removebg-preview-1.png?simply_static_page=107
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/uploads/2025/01/download__1_-removebg-preview-1.png?simply_static_page=107
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:103] Filesize: 12642 bytes
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/download__1_-removebg-preview-1.png
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb2fa87ef-bNc8GG.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/uploads/2025/01/download__1_-removebg-preview-1.png
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:31] [class-ss-page.php:119] Checking Content Identical:e0155b8c5fa6529a2b0f78c2a3b66aa7ea94419a===. Value: FALSE
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/uploads/2025/01/a95825f5-24f8-41e9-87a3-c1a0d981957d.jpeg
+[2025-01-31 15:24:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 32
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb2fad703-vU65rN.tmp
+[2025-01-31 15:24:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/uploads/2025/01/a95825f5-24f8-41e9-87a3-c1a0d981957d.jpeg?simply_static_page=108
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/uploads/2025/01/a95825f5-24f8-41e9-87a3-c1a0d981957d.jpeg?simply_static_page=108
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:103] Filesize: 277353 bytes
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/a95825f5-24f8-41e9-87a3-c1a0d981957d.jpeg
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb2fad703-vU65rN.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/uploads/2025/01/a95825f5-24f8-41e9-87a3-c1a0d981957d.jpeg
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:31] [class-ss-page.php:119] Checking Content Identical:64a90a0018525f9ad359828cc4fe4e2ac70ee7ba===. Value: FALSE
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/uploads/2025/01/764fd509-81b5-44f0-98e8-0658966dfe8c-removebg-preview.png
+[2025-01-31 15:24:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 32
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb2fb7ca7-cwHUgA.tmp
+[2025-01-31 15:24:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/uploads/2025/01/764fd509-81b5-44f0-98e8-0658966dfe8c-removebg-preview.png?simply_static_page=109
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/uploads/2025/01/764fd509-81b5-44f0-98e8-0658966dfe8c-removebg-preview.png?simply_static_page=109
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:103] Filesize: 319646 bytes
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/764fd509-81b5-44f0-98e8-0658966dfe8c-removebg-preview.png
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb2fb7ca7-cwHUgA.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/uploads/2025/01/764fd509-81b5-44f0-98e8-0658966dfe8c-removebg-preview.png
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:31] [class-ss-page.php:119] Checking Content Identical:f70abf7aaf2689e6507893ce3449f757fbf2cd96===. Value: FALSE
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-includes/js/jquery/jquery.min.js
+[2025-01-31 15:24:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 32
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb2fc2452-JBBCjc.tmp
+[2025-01-31 15:24:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-includes/js/jquery/jquery.min.js?simply_static_page=110
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-includes/js/jquery/jquery.min.js?simply_static_page=110
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb2fc2452-JBBCjc.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-includes/js/jquery/jquery.min.js
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:31] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-01-31 15:24:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 32
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb2fd8de7-qb15yr.tmp
+[2025-01-31 15:24:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=111
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=111
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb2fd8de7-qb15yr.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:31] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/plugins/wpzoom-video-popup-block/dist/scripts/frontend.js
+[2025-01-31 15:24:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 32
+[2025-01-31 15:24:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb2ff173d-lFkuCI.tmp
+[2025-01-31 15:24:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/plugins/wpzoom-video-popup-block/dist/scripts/frontend.js?simply_static_page=112
+[2025-01-31 15:24:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/plugins/wpzoom-video-popup-block/dist/scripts/frontend.js?simply_static_page=112
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:103] Filesize: 21236 bytes
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wpzoom-video-popup-block/dist/scripts/frontend.js
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb2ff173d-lFkuCI.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/plugins/wpzoom-video-popup-block/dist/scripts/frontend.js
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:32] [class-ss-page.php:119] Checking Content Identical:7b5a866ae9a57dc888029c87f0822108a52d9202===. Value: FALSE
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/plugins/wpzoom-forms/dist/assets/frontend/js/script.js
+[2025-01-31 15:24:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 32
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb301f895-YdAmmd.tmp
+[2025-01-31 15:24:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/plugins/wpzoom-forms/dist/assets/frontend/js/script.js?simply_static_page=113
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/plugins/wpzoom-forms/dist/assets/frontend/js/script.js?simply_static_page=113
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:103] Filesize: 2466 bytes
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wpzoom-forms/dist/assets/frontend/js/script.js
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb301f895-YdAmmd.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/plugins/wpzoom-forms/dist/assets/frontend/js/script.js
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:32] [class-ss-page.php:119] Checking Content Identical:dcc090e9a4f4810ba002f9217ad0e5b7bcaeea45===. Value: FALSE
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/themes/inspiro/assets/js/minified/plugins.min.js
+[2025-01-31 15:24:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 32
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb3027c76-7OeOX3.tmp
+[2025-01-31 15:24:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/themes/inspiro/assets/js/minified/plugins.min.js?simply_static_page=114
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/themes/inspiro/assets/js/minified/plugins.min.js?simply_static_page=114
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:103] Filesize: 14278 bytes
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/inspiro/assets/js/minified/plugins.min.js
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb3027c76-7OeOX3.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/themes/inspiro/assets/js/minified/plugins.min.js
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:32] [class-ss-page.php:119] Checking Content Identical:d8188963e2ae1acd8de6f2bc67328e915db8d447===. Value: FALSE
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/themes/inspiro/assets/js/minified/scripts.min.js
+[2025-01-31 15:24:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 32
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb30357f0-w5dPLP.tmp
+[2025-01-31 15:24:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/themes/inspiro/assets/js/minified/scripts.min.js?simply_static_page=115
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/themes/inspiro/assets/js/minified/scripts.min.js?simply_static_page=115
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:103] Filesize: 7783 bytes
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/inspiro/assets/js/minified/scripts.min.js
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb30357f0-w5dPLP.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/themes/inspiro/assets/js/minified/scripts.min.js
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:32] [class-ss-page.php:119] Checking Content Identical:61505197331251e178a21e9345bfec1844e873bf===. Value: FALSE
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/index.php/feed/
+[2025-01-31 15:24:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 32
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/dianahedzell_cv/index.php/feed/
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/index.php/comments/feed/
+[2025-01-31 15:24:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 32
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/dianahedzell_cv/index.php/comments/feed/
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-includes/css/dist/block-library/style.min.css
+[2025-01-31 15:24:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 32
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb303ffb0-Xo0NEB.tmp
+[2025-01-31 15:24:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-includes/css/dist/block-library/style.min.css?simply_static_page=118
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-includes/css/dist/block-library/style.min.css?simply_static_page=118
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:103] Filesize: 114706 bytes
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb303ffb0-Xo0NEB.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-includes/css/dist/block-library/style.min.css
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:32] [class-ss-page.php:119] Checking Content Identical:dc3b1a37381e079fda8db59c1a9469852cd18b80===. Value: FALSE
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/plugins/wpzoom-portfolio/build/blocks/portfolio/style.css
+[2025-01-31 15:24:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 32
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb304d950-QhSJKk.tmp
+[2025-01-31 15:24:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/plugins/wpzoom-portfolio/build/blocks/portfolio/style.css?simply_static_page=119
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/plugins/wpzoom-portfolio/build/blocks/portfolio/style.css?simply_static_page=119
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:103] Filesize: 30794 bytes
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wpzoom-portfolio/build/blocks/portfolio/style.css
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb304d950-QhSJKk.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/plugins/wpzoom-portfolio/build/blocks/portfolio/style.css
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:32] [class-ss-page.php:119] Checking Content Identical:89f5eb890b0ab50ad33a0d3e1b67d8b5dfc1f711===. Value: FALSE
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/plugins/wpzoom-portfolio/build/blocks/portfolio-layouts/style.css
+[2025-01-31 15:24:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 32
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb305abd5-lZaaUs.tmp
+[2025-01-31 15:24:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/plugins/wpzoom-portfolio/build/blocks/portfolio-layouts/style.css?simply_static_page=120
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/plugins/wpzoom-portfolio/build/blocks/portfolio-layouts/style.css?simply_static_page=120
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:103] Filesize: 1 bytes
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wpzoom-portfolio/build/blocks/portfolio-layouts/style.css
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb305abd5-lZaaUs.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/plugins/wpzoom-portfolio/build/blocks/portfolio-layouts/style.css
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:32] [class-ss-page.php:119] Checking Content Identical:adc83b19e793491b1c6ea0fd8b46cd9f32e592fc===. Value: FALSE
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/plugins/wpzoom-forms/build/form-block/frontend/style.css
+[2025-01-31 15:24:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 32
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb306414d-BKu3l2.tmp
+[2025-01-31 15:24:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/plugins/wpzoom-forms/build/form-block/frontend/style.css?simply_static_page=121
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/plugins/wpzoom-forms/build/form-block/frontend/style.css?simply_static_page=121
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:103] Filesize: 7007 bytes
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wpzoom-forms/build/form-block/frontend/style.css
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb306414d-BKu3l2.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/plugins/wpzoom-forms/build/form-block/frontend/style.css
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:32] [class-ss-page.php:119] Checking Content Identical:bdcc0d52dd36561ed216466721b5ef71dc7a69a2===. Value: FALSE
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/fonts/ebdd983491c3e1f95c43beec7a1133d3.css
+[2025-01-31 15:24:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 32
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb306978b-bR5JbD.tmp
+[2025-01-31 15:24:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/fonts/ebdd983491c3e1f95c43beec7a1133d3.css?simply_static_page=122
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/fonts/ebdd983491c3e1f95c43beec7a1133d3.css?simply_static_page=122
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:103] Filesize: 21978 bytes
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/ebdd983491c3e1f95c43beec7a1133d3.css
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb306978b-bR5JbD.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/fonts/ebdd983491c3e1f95c43beec7a1133d3.css
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:158] Adding 13 URLs to the queue
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:32] [class-ss-page.php:119] Checking Content Identical:61842bb1943651eb63ce7ef7b3e446d57a3c827d===. Value: FALSE
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/themes/inspiro/assets/css/minified/style.min.css
+[2025-01-31 15:24:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 32
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb3085c9d-6pXQuG.tmp
+[2025-01-31 15:24:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/themes/inspiro/assets/css/minified/style.min.css?simply_static_page=123
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/themes/inspiro/assets/css/minified/style.min.css?simply_static_page=123
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:103] Filesize: 91015 bytes
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/inspiro/assets/css/minified/style.min.css
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb3085c9d-6pXQuG.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/themes/inspiro/assets/css/minified/style.min.css
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:32] [class-ss-page.php:119] Checking Content Identical:477a03392db1e23dfeebfe1047832c2751cad653===. Value: FALSE
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-includes/css/dashicons.min.css
+[2025-01-31 15:24:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 32
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb309250d-bOj9sM.tmp
+[2025-01-31 15:24:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-includes/css/dashicons.min.css?simply_static_page=124
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-includes/css/dashicons.min.css?simply_static_page=124
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:103] Filesize: 59016 bytes
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dashicons.min.css
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb309250d-bOj9sM.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-includes/css/dashicons.min.css
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:32] [class-ss-page.php:119] Checking Content Identical:124f83d9be3a0ea4ded75fe4491650d7795c5363===. Value: FALSE
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/index.php/wp-json/
+[2025-01-31 15:24:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 32
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/dianahedzell_cv/index.php/wp-json/
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/xmlrpc.php
+[2025-01-31 15:24:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 32
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/dianahedzell_cv/xmlrpc.php
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-31 15:24:32] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 3 of 32 pages/files
+[2025-01-31 15:24:32] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-01-31 15:24:32] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-31 15:24:32] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:69] Total pages: 47; Pages remaining: 15
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2
+[2025-01-31 15:24:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 47
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb30b7525-7XyHUS.tmp
+[2025-01-31 15:24:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2?simply_static_page=127
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2?simply_static_page=127
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:103] Filesize: 25888 bytes
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb30b7525-7XyHUS.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:32] [class-ss-page.php:119] Checking Content Identical:64f37addfe426c0b3e76ef20af803191c38df5b3===. Value: FALSE
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2
+[2025-01-31 15:24:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 47
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb30bbd2d-EW6M5H.tmp
+[2025-01-31 15:24:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2?simply_static_page=128
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2?simply_static_page=128
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:103] Filesize: 18740 bytes
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb30bbd2d-EW6M5H.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:32] [class-ss-page.php:119] Checking Content Identical:d83a47942575eeb80d30ebc7bf9a5b6f83c930fb===. Value: FALSE
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2
+[2025-01-31 15:24:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 47
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb30c695b-cIPOgg.tmp
+[2025-01-31 15:24:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2?simply_static_page=129
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2?simply_static_page=129
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:103] Filesize: 11200 bytes
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb30c695b-cIPOgg.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:32] [class-ss-page.php:119] Checking Content Identical:e1126a9007d27dae496647ac1b97356ebf38671c===. Value: FALSE
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2
+[2025-01-31 15:24:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 47
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb30cdf60-gSp71S.tmp
+[2025-01-31 15:24:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2?simply_static_page=130
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2?simply_static_page=130
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:103] Filesize: 19072 bytes
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb30cdf60-gSp71S.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:32] [class-ss-page.php:119] Checking Content Identical:c475178f5395eb2c2d556c8f0e9250237c019dc8===. Value: FALSE
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2
+[2025-01-31 15:24:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 47
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb30d2ecc-fXdAxP.tmp
+[2025-01-31 15:24:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2?simply_static_page=131
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2?simply_static_page=131
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:103] Filesize: 10252 bytes
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb30d2ecc-fXdAxP.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:32] [class-ss-page.php:119] Checking Content Identical:9c1cad863a03434fb9c1501e9dd27ac14ed7cf63===. Value: FALSE
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2
+[2025-01-31 15:24:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 47
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb30dd571-HbpYyN.tmp
+[2025-01-31 15:24:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2?simply_static_page=132
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2?simply_static_page=132
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:103] Filesize: 74328 bytes
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb30dd571-HbpYyN.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:32] [class-ss-page.php:119] Checking Content Identical:ee0ebd2ef047937cd8ca547172229155813ff939===. Value: FALSE
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2
+[2025-01-31 15:24:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 47
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb30e4dcd-clyZGm.tmp
+[2025-01-31 15:24:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2?simply_static_page=133
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2?simply_static_page=133
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:103] Filesize: 48444 bytes
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb30e4dcd-clyZGm.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:32] [class-ss-page.php:119] Checking Content Identical:d7402416753ae1bb4cbd4b10d33a0c10517838bd===. Value: FALSE
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2
+[2025-01-31 15:24:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 47
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb30ecd6e-7sGKT3.tmp
+[2025-01-31 15:24:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2?simply_static_page=134
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2?simply_static_page=134
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:103] Filesize: 26476 bytes
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2
+[2025-01-31 15:24:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb30ecd6e-7sGKT3.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:32] [class-ss-page.php:119] Checking Content Identical:cebeb9a6e61ac142a3d0aa033edbabc4f0833a76===. Value: FALSE
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2
+[2025-01-31 15:24:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 47
+[2025-01-31 15:24:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb3100009-ya5Lao.tmp
+[2025-01-31 15:24:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2?simply_static_page=135
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2?simply_static_page=135
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:103] Filesize: 23836 bytes
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb3100009-ya5Lao.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:33] [class-ss-page.php:119] Checking Content Identical:5475d00c83bac9004c17d9442a2d3837a94a09d3===. Value: FALSE
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2
+[2025-01-31 15:24:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 47
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb31076ab-DZzG1M.tmp
+[2025-01-31 15:24:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2?simply_static_page=136
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2?simply_static_page=136
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:103] Filesize: 13020 bytes
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb31076ab-DZzG1M.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:33] [class-ss-page.php:119] Checking Content Identical:42336c9840a3bfcd5b15c3f9ba7ccbd1fcc4b799===. Value: FALSE
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2
+[2025-01-31 15:24:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 47
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb310f21b-DOGnG4.tmp
+[2025-01-31 15:24:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2?simply_static_page=137
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2?simply_static_page=137
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:103] Filesize: 70768 bytes
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb310f21b-DOGnG4.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:33] [class-ss-page.php:119] Checking Content Identical:e8dd43824f648b3b0dbd051b91926e6dc11684d7===. Value: FALSE
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2
+[2025-01-31 15:24:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 47
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb311733a-Xl17bF.tmp
+[2025-01-31 15:24:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2?simply_static_page=138
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2?simply_static_page=138
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:103] Filesize: 37828 bytes
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb311733a-Xl17bF.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:33] [class-ss-page.php:119] Checking Content Identical:500e4872ee1ba9cf89f1ba626d64987b0f9ab5c9===. Value: FALSE
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-content/fonts/montserrat-subrayada/U9MD6c-o9H7PgjlTHThBnNHGVUORwteQQH8MaOY.woff2
+[2025-01-31 15:24:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 47
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb3121c1a-py3HMW.tmp
+[2025-01-31 15:24:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-content/fonts/montserrat-subrayada/U9MD6c-o9H7PgjlTHThBnNHGVUORwteQQH8MaOY.woff2?simply_static_page=139
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-content/fonts/montserrat-subrayada/U9MD6c-o9H7PgjlTHThBnNHGVUORwteQQH8MaOY.woff2?simply_static_page=139
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:103] Filesize: 7192 bytes
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/montserrat-subrayada/U9MD6c-o9H7PgjlTHThBnNHGVUORwteQQH8MaOY.woff2
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb3121c1a-py3HMW.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-content/fonts/montserrat-subrayada/U9MD6c-o9H7PgjlTHThBnNHGVUORwteQQH8MaOY.woff2
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:33] [class-ss-page.php:119] Checking Content Identical:c7712716d3ee9f25e5b9c48fb496480b7e47d840===. Value: FALSE
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-includes/fonts/dashicons.eot
+[2025-01-31 15:24:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 47
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb31289b8-9OsDCQ.tmp
+[2025-01-31 15:24:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-includes/fonts/dashicons.eot?simply_static_page=140
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-includes/fonts/dashicons.eot?simply_static_page=140
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:103] Filesize: 56564 bytes
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/fonts/dashicons.eot
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb31289b8-9OsDCQ.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-includes/fonts/dashicons.eot
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:33] [class-ss-page.php:119] Checking Content Identical:f90206d72a97c26bb9618d7d7e0d10ddfd652291===. Value: FALSE
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dianahedzell_cv/wp-includes/fonts/dashicons.ttf
+[2025-01-31 15:24:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 47
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb3130cad-AHjaoT.tmp
+[2025-01-31 15:24:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dianahedzell_cv/wp-includes/fonts/dashicons.ttf?simply_static_page=141
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dianahedzell_cv/wp-includes/fonts/dashicons.ttf?simply_static_page=141
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:103] Filesize: 56392 bytes
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/fonts/dashicons.ttf
+[2025-01-31 15:24:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HPLAPT~1\AppData\Local\Temp/679ceb3130cad-AHjaoT.tmp to C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067/wp-includes/fonts/dashicons.ttf
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-31 15:24:33] [class-ss-page.php:119] Checking Content Identical:540fe646c1727587dc8f9c94b676b5e4a2fceea7===. Value: FALSE
+[2025-01-31 15:24:33] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 32 of 47 pages/files
+[2025-01-31 15:24:33] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-01-31 15:24:33] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-31 15:24:33] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-31 15:24:33] [class-ss-fetch-urls-task.php:69] Total pages: 47; Pages remaining: 0
+[2025-01-31 15:24:33] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 47 of 47 pages/files
+[2025-01-31 15:24:33] [class-ss-archive-creation-job.php:204] We've found our next task: transfer_files_locally
+[2025-01-31 15:24:33] [class-ss-archive-creation-job.php:234] Cleaning on first run for task: transfer_files_locally
+[2025-01-31 15:24:33] [class-ss-archive-creation-job.php:172] Current task: transfer_files_locally
+[2025-01-31 15:24:33] [class-ss-archive-creation-job.php:182] Performing task: transfer_files_locally
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/uploads/2025/01
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/uploads/2025/01
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/uploads/2025/01
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/uploads/2025/01
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/uploads/2025/01
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/uploads/2025/01
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-includes/js/jquery
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-includes/js/jquery
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-includes/js/jquery
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-includes/js/jquery
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/plugins/wpzoom-video-popup-block/dist/scripts
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/plugins/wpzoom-video-popup-block/dist/scripts
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/plugins/wpzoom-forms/dist/assets/frontend/js
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/plugins/wpzoom-forms/dist/assets/frontend/js
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/themes/inspiro/assets/js/minified
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/themes/inspiro/assets/js/minified
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/themes/inspiro/assets/js/minified
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/themes/inspiro/assets/js/minified
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-includes/css/dist/block-library
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-includes/css/dist/block-library
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/plugins/wpzoom-portfolio/build/blocks/portfolio
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/plugins/wpzoom-portfolio/build/blocks/portfolio
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/plugins/wpzoom-portfolio/build/blocks/portfolio-layouts
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/plugins/wpzoom-portfolio/build/blocks/portfolio-layouts
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/plugins/wpzoom-forms/build/form-block/frontend
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/plugins/wpzoom-forms/build/form-block/frontend
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/fonts
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/fonts
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/themes/inspiro/assets/css/minified
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/themes/inspiro/assets/css/minified
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-includes/css
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-includes/css
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/inter
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/inter
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/inter
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/inter
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/inter
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/inter
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/inter
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/inter
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/inter
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/inter
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/inter
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/inter
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/inter
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/inter
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/montserrat
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/montserrat
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/montserrat
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/montserrat
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/montserrat
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/montserrat
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/montserrat
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/montserrat
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/montserrat
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/montserrat
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/montserrat-subrayada
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-content/fonts/montserrat-subrayada
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-includes/fonts
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-includes/fonts
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/Xampp/htdocs/dianahedzell/wp-includes/fonts
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Xampp/htdocs/dianahedzell/wp-includes/fonts
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:98] [Transfer] Total Pages:32. Processed Pages: 32
+[2025-01-31 15:24:33] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 32 of 32 files
+[2025-01-31 15:24:33] [trait-can-process-pages.php:112] Total pages: 32; Pages remaining: 0
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:198] Transferring 404 Page
+[2025-01-31 15:24:33] [class-ss-transfer-files-locally-task.php:201] No 404 Page found at C:\Xampp\htdocs\dianahedzell_cv/wp-content/uploads\simply-static\temp-files/simply-static-1-1738337067\404\index.html
+[2025-01-31 15:24:33] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://dianahedzellina.github.io/dianahedzell/" target="_blank">https://dianahedzellina.github.io/dianahedzell/</a>
+[2025-01-31 15:24:33] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
+[2025-01-31 15:24:33] [class-ss-archive-creation-job.php:172] Current task: wrapup
+[2025-01-31 15:24:33] [class-ss-archive-creation-job.php:182] Performing task: wrapup
+[2025-01-31 15:24:33] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2025-01-31 15:24:33] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-01-31 15:24:33] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
+[2025-01-31 15:24:33] [class-ss-archive-creation-job.php:244] Completing the job
+[2025-01-31 15:24:33] [class-ss-archive-creation-job.php:371] Status message: [done] Done! Finished in 00:00:06
